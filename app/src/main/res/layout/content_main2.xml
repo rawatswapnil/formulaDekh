@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main2Activity"
+    tools:showIn="@layout/activity_main2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Mechanics"
+                android:textColor="#2196F3"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:text=" Kinematics"
+                android:onClick="kinClick"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Laws of Motion"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Work Energy Power"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Rotational Motion"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Gravitation"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Matter mechanics"
+                android:textColor="#2196F3"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:text=" Properties of solids and liquids"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Oscillations"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Waves and sound"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Electricity and Magnetism"
+                android:textColor="#2196F3"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFFFFF"
+                android:text=" Electrostatics"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Current Electricity"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Heating and Chemical effects of current"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Magnetic effect of current"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Magnetism"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Electromagnetic Induction"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Alternating Current"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Electromagnetic Waves"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Optics"
+                android:textColor="#2196F3"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Ray Optics"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Wave Optics"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Modern Physics"
+                android:textColor="#2196F3"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Dual Nature of Matter and Radiaton"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Atomic Physics"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Nuclear Physics"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:background="#FFFFFF"
+                android:text=" Electronics"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

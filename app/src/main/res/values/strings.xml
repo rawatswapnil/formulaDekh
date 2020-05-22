@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyNewApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="physics"><u>Physics</u></string>
+    <string name="chemistry"><u>Chemistry</u></string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="mathematics"><u>Mathematics</u></string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+    <string name="cf"><![CDATA[Centripetal force and turn at roads   F = m(v^2)/r  mu_s >= (v^2)/rg  or v <= sqrt((mu_s)rg)]]></string>
+</resources>
