@@ -1,7 +1,5 @@
-<img src="https://bluemixassets.eu-gb.mybluemix.net/api/Products/image/logos/basic.svg?key=[starter-basic]&event=readme-image-view" alt="Basic Logo" width="200px"/>
-
-## Empty Starter
-Empty IBM Cloud Mobile Starter in Java
+## Formula Dekh
+Formula dekh app can help students to learn and revise formulas quickly 
 
 [![](https://img.shields.io/badge/ibmcloud-powered-blue.svg)](https://bluemix.net)
 [![](https://img.shields.io/badge/platform-android-lightgrey.svg?style=flat)](https://developer.android.com/index.html)
@@ -39,8 +37,6 @@ The Empty mobile starter is an empty project that has integration points for eac
 ### Run
 
 Click **Run** to start the app in Android Studio.
-
-<img src="README_Images/basic.png" alt="Empty App Screenshot" width="250px"/>
 
 The application has built in integration points for the Push Notifications and Mobile Foundation services. If you have added these services then the basic code is automatically generated for the services.
 
